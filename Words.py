@@ -15,8 +15,9 @@ for i in range(1, 27):
     alphabet[letter] = i
 
 print(alphabet)
-input_words = []
+word_list = []
 input_values = []
+relevance_scores = []
 q = 0
 while q<5:
     word = input("Enter a word: ") .strip().upper()
